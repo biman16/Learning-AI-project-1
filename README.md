@@ -34,6 +34,14 @@
 - Confidence score
 - Compare results for different tones
 
+# 6. NER(Named Entity Recogmition)
+- Use pipeline("ner")
+- Input a paragraph
+- Output:
+- Entity names
+- Entity types (PERSON, ORG, LOCATION, etc.)
+- Group similar entities together
+
 ## Tech Used:
 - Python
 - Transformers (Hugging Face)
