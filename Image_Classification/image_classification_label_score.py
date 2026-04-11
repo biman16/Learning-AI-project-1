@@ -1,12 +1,8 @@
 from transformers import pipeline
 
-from PIL import Image
-
 classifier = pipeline("image-classification")
 
-image = Image.open("cat.jpeg")
-
-results = classifier(image)
+results = classifier("cat.jpeg")
 
 print("\nImage Classification result: \n")
 

@@ -42,6 +42,59 @@
 - Entity types (PERSON, ORG, LOCATION, etc.)
 - Group similar entities together
 
+# 7. Image Classification
+Goal: Identify what is in an image
+Use:
+
+pipeline("image-classification")Input:
+
+2–3 images
+Output:
+
+Labels
+Confidence scores
+Concepts:
+
+CNN / ViT
+Feature extraction
+Softmax
+
+# 8. Image Captioning
+Goal: Generate description of an image
+Use:
+
+pipeline("image-to-text")
+
+Input:
+
+1–2 images
+Output:
+
+Caption (text)
+Concepts:
+
+Vision + Language
+Encoder → Decoder
+Multimodal models
+
+# 9. Object Detection
+Goal: Detect and locate objects
+Use:
+
+pipeline("object-detection")Input:
+
+1–2 images
+Output:
+
+Object labels
+Bounding boxes
+Confidence scores
+Concepts:
+
+Localization + classification
+Bounding boxes
+Real-world use cases
+
 ## Tech Used:
 - Python
 - Transformers (Hugging Face)
